@@ -21,6 +21,7 @@ export class API implements ApiClient {
     this.#headers = {
       Accept: "application/json",
       "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
       "x-api-key": apiKey,
     };
   }
